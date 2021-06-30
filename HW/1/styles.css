@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #efefef;
+  color: #2b3a42;
+  font-family: "Roboto", sans-serif;
+}
+
+/* HEADER */
+.header {
+  align-items: center;
+  background-color: #2b3a42;
+  color: #bdd4de;
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+
+  padding: 2rem;
+}
+
+.header nav {
+  margin-left: auto;
+  font-weight: bold;
+}
+
+.header a {
+  margin: 1rem;
+  text-decoration: none;
+  color: #bdd4de;
+  font-size: 1.25rem;
+}
+
+a {
+  color: slateblue;
+  text-decoration: none;
+}
+a:hover {
+  color: #ff530d;
+}
+
+.highlight {
+  color: #ff530d;
+  font-weight: bold;
+}
+
+/* MAIN CONTENT */
+.main-content {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+#github-image {
+	width: 30px;
+	margin-right: 1rem;
+}
+
+#linkedin-image {
+	width: 30px;
+}
+
+.personal-info {
+  width: 200px;
+}
+
+.quote {
+  text-align: center;
+}
+
+#quote-text {
+  font-style: italic;
+}
+
+.other-links {
+  text-align: center;
+}
+
+/* WORK TABLE */
+.work {
+  background-color: #fff;
+  border-radius: 6px;
+  margin: 3rem 5rem;
+  padding: 1rem;
+}
+
+table {
+  border-spacing: 1.25rem 0.75rem;
+  margin: 1rem auto;
+  padding: 1rem;
+  text-align: center;
+  width: 40%;
+}
+
+table a {
+	color: slateblue;
+}
+table a:hover {
+	color: red;
+}
+
+.sep {
+  border-bottom: 1px #2b3a42 solid;
+}
+
+/* RESUME */
+.resume {
+  margin: 5rem 10rem;
+}
